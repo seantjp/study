@@ -230,7 +230,7 @@ const file_proto_order_v1_order_proto_rawDesc = "" +
 	"\x06status\x18\x03 \x01(\tR\x06status2\x92\x01\n" +
 	"\fOrderService\x12J\n" +
 	"\vCreateOrder\x12\x1c.order.v1.CreateOrderRequest\x1a\x1d.order.v1.CreateOrderResponse\x126\n" +
-	"\bGetOrder\x12\x19.order.v1.GetOrderRequest\x1a\x0f.order.v1.OrderB6Z4github.com/YOURNAME/ecommerce/proto/order/v1;orderv1b\x06proto3"
+	"\bGetOrder\x12\x19.order.v1.GetOrderRequest\x1a\x0f.order.v1.OrderB1Z/github.com/seantjp/study/proto/order/v1;orderv1b\x06proto3"
 
 var (
 	file_proto_order_v1_order_proto_rawDescOnce sync.Once
