@@ -1,0 +1,39 @@
+### Go build artifacts
+bin/
+cmd/**/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+### Go modules & workspace
+vendor/
+
+### IDE / editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.DS_Store
+
+### Logs & temp files
+*.log
+tmp/
+dist/
+
+### Protobuf / buf
+api/proto/**/buf.gen.yaml
+api/proto/**/gen/
+
+### Docker / compose
+infra/.env
+infra/*.local.yml
+
+### OS-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
