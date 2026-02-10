@@ -6,7 +6,7 @@ option go_package = "github.com/seantjp/study/proto/order/v1;orderv1";
 
 service OrderService {
   rpc CreateOrder(CreateOrderRequest) returns (CreateOrderResponse);
-  rpc GetOrder(GetOrderRequest) returns (Order);
+  rpc GetOrder(GetOrderRequest) returns (GetOrderResponse);
 }
 
 message CreateOrderRequest {
@@ -19,6 +19,10 @@ message CreateOrderResponse {
 
 message GetOrderRequest {
   int64 order_id = 1;
+}
+
+message GetOrderResponse {
+  Order order = 1;
 }
 
 message Order {
